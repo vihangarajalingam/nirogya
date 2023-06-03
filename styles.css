@@ -44,10 +44,11 @@
 
 .logo {
     padding: 20px;
-    width: 250px; /* Adjust the width as needed */
+    width: 250px;
 }
 
 .detail-header {
-    padding-top: 20px; /* Add the desired gap */
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 50px;
 }
