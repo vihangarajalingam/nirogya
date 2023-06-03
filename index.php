@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Webpage</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Include Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+<!-- Header Section -->
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <img src="logo-violet.webp" alt="Logo">
+            </div>
+            <div class="col-6 text-end">
+                <p>Opening Hours: 9am - 5pm</p>
+                <p>Phone: 123-456-7890</p>
+                <p>Address: 123 Street, City</p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Sliding Carousel Section -->
+<section>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="slider-4-slide-01-copyright.jpg" class="d-block w-100" alt="Image 1">
+                <div class="carousel-caption">
+                    <a href="#" class="btn btn-primary">Make an appointment</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="slider-4-slide-03-copyright.jpg" class="d-block w-100" alt="Image 2">
+                <div class="carousel-caption">
+                    <a href="#" class="btn btn-primary">Make an appointment</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+
+<br/>
+
+<!-- Section with Cards -->
+<section>
+    <div class="container">
+        <h2 class="center-text">WHAT WE OFFER</h2>
+        <p class="center-text">You deserve better than a rushed massage by a rookie therapist in a place that makes you feel more
+            stressed</p>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="bi bi-icon-name"></i>
+                        <h5 class="card-title">Hot Stones</h5>
+                        <p class="card-text">For the ultimate in relaxation and pain relief, try our hot and smooth stones.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="bi bi-icon-name"></i>
+                        <h5 class="card-title">Men’s Therapy</h5>
+                        <p class="card-text">We value every client and provide effective market research on a daily basis.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="bi bi-icon-name"></i>
+                        <h5 class="card-title">Beauty Procedures</h5>
+                        <p class="card-text">Youth-boosting wonder that instantly restores radiance & tones your skin. </p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section with Image and Cards -->
+<!--<section>-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-6">-->
+<!--                <img src="slider-4-slide-03-copyright.jpg" alt="Image 4" class="img-fluid">-->
+<!--            </div>-->
+<!--            <div class="col-md-6">-->
+<!--                <div class="row">-->
+<!--                    <div class="col-md-6">-->
+<!--                        <div class="card">-->
+<!--                            <div class="card-body">-->
+<!--                                <h5 class="card-title">Hot Stones</h5>-->
+<!--                                <p class="card-text">For the ultimate in relaxation and pain relief, try our hot and smooth stones.</p>-->
+<!--                                <a href="#" class="btn btn-primary">Read More</a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-md-6">-->
+<!--                        <div class="card">-->
+<!--                            <div class="card-body">-->
+<!--                                <h5 class="card-title">Card Heading 2</h5>-->
+<!--                                <p class="card-text">Card Description 2</p>-->
+<!--                                <a href="#" class="btn btn-primary">Read More</a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-md-6">-->
+<!--                        <div class="card">-->
+<!--                            <div class="card-body">-->
+<!--                                <h5 class="card-title">Card Heading 3</h5>-->
+<!--                                <p class="card-text">Card Description 3</p>-->
+<!--                                <a href="#" class="btn btn-primary">Read More</a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-md-6">-->
+<!--                        <div class="card">-->
+<!--                            <div class="card-body">-->
+<!--                                <h5 class="card-title">Card Heading 4</h5>-->
+<!--                                <p class="card-text">Card Description 4</p>-->
+<!--                                <a href="#" class="btn btn-primary">Read More</a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+<!-- Section with Two Columns -->
+<!--<section>-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-6">-->
+<!--                <img src="slider-4-slide-03-copyright.jpg" alt="Image 5" class="img-fluid">-->
+<!--            </div>-->
+<!--            <div class="col-md-6">-->
+<!--                <h2>Column Heading</h2>-->
+<!--                <p>Column Description</p>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+<!-- Include Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    // Enable carousel auto-sliding
+    $(document).ready(function () {
+        // Enable carousel auto-sliding
+        $('#carouselExampleFade ').carousel({
+            interval: 3000 // Set the interval in milliseconds (e.g., 5000 for 5 seconds)
+        });
+    });
+</script>
+</body>
+</html>
