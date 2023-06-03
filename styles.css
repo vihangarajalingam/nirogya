@@ -41,3 +41,12 @@
 .center-text {
     text-align: center;
 }
+
+.logo {
+    padding: 20px;
+    width: 250px; /* Adjust the width as needed */
+}
+
+.detail-header {
+    padding-top: 30px; /* Add the desired gap */
+}
