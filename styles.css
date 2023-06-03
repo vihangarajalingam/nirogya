@@ -48,5 +48,6 @@
 }
 
 .detail-header {
-    padding-top: 30px; /* Add the desired gap */
+    padding-top: 20px; /* Add the desired gap */
+    padding-left: 50px;
 }
